@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label>Aprēķināt cik daudz informācijas var lejuplādēt</label><br>
+        <input name="sec1" onfocus="sizeUnit[0].checked=false;sizeUnit[1].checked=false; res.value=''; sec1.value='';" type="number"><label>sekundēs, ja interneta ātrums ir 25 Mbps</label><br><br>
+        <label>Atbilde</label><br>
+        <input name="res" type="number" disabled><input type="radio" name="sizeUnit" onclick="res.value=sec1.value*24414.0625/8">KiB <input type="radio" name="sizeUnit" onclick="res.value=sec1.value*25000/8">KB
+    </form>
+</body>
+</html>
